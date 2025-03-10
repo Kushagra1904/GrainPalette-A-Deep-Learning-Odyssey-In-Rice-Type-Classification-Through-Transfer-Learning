@@ -1,14 +1,4 @@
-/**
-* Template Name: Plato
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/plato-responsive-bootstrap-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -495,65 +485,45 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content {
-  padding-left: 30px;
+.about {
+  padding: 60px 0;
 }
 
-.about .content h3 {
-  font-weight: 700;
-  font-size: 34px;
+.about-img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.about .content p {
-  margin-bottom: 0;
+.content {
+  padding-left: 20px;
 }
 
-.about .content .icon-box {
-  margin-top: 25px;
+.features {
+  list-style: none;
+  padding: 0;
 }
 
-.about .content .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 5px 0 10px 60px;
-}
-
-.about .content .icon-box i {
-  font-size: 48px;
-  float: left;
-  color: #4eb478;
-}
-
-.about .content .icon-box p {
-  font-size: 15px;
-  color: #848484;
-  margin-left: 60px;
-}
-
-.about .image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 400px;
+.features li {
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
 @media (max-width: 991px) {
-  .about {
-    padding-left: 0;
-  }
-
-  .about .image {
+  .row {
+    flex-direction: column;
     text-align: center;
   }
 
-  .about .image img {
-    max-width: 80%;
-  }
-}
-
-@media (max-width: 667px) {
-  .about .image img {
+  .about-img {
     max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    padding-left: 0;
   }
 }
 
