@@ -1,0 +1,19 @@
+ Problem Statement :
+Medical image analysis using machine learning aims to develop models that can automatically analyze X-rays images faster to assist in diagnosis, treatment planning, and monitoring. The goal is to create accurate, reliable, and efficient systems that can reduce the workload of radiologists and improve patient outcomes. A project focuses on classifying X-ray images to detect pneumonia, tuberculosis, brain tumors and other diseases using Convolutional Neural Networks (CNNs).
+
+ Data Sources :
+NIH Image Gallery: Provides a collection of medical images from the National Institutes of Health.
+Kaggle: Offers a variety of medical image datasets, including X-rays, MRI scans, and CT scans.
+MIMIC-CXR Database: Provided by PhysioNet, it contains de-identified chest X-rays along with corresponding radiology reports.
+PadChest: A large-scale chest X-ray dataset with rich labels for different conditions.
+
+ Data issues :
+Data Privacy: Ensuring patient data is anonymized and complies with privacy regulations.
+Data Quality: Medical images can vary in quality due to differences in equipment, settings, and conditions.
+Data Imbalance: Some conditions may be underrepresented in the dataset, leading to biased models.
+
+ Types of Data :
+Chest X-rays: Used to diagnose lung diseases, heart conditions, and infections.
+Bone X-rays: Used to detect fractures, bone infections, and arthritis.
+Dental X-rays: Used in dentistry to examine teeth and jaw structure.
+Abdominal X-rays: Used to visualize organs in the abdominal cavity and detect issues like bowel obstruction.
