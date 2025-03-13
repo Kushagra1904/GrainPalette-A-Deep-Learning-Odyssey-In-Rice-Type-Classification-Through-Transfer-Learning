@@ -1,5 +1,8 @@
  Problem Statement :
-Medical image analysis using machine learning aims to develop models that can automatically analyze X-rays images faster to assist in diagnosis, treatment planning, and monitoring. The goal is to create accurate, reliable, and efficient systems that can reduce the workload of radiologists and improve patient outcomes. A project focuses on classifying X-ray images to detect pneumonia, tuberculosis, brain tumors and other diseases using Convolutional Neural Networks (CNNs).
+Medical image analysis using machine learning aims to develop models that can automatically analyze X-rays images faster to assist in diagnosis, 
+treatment planning, and monitoring. The goal is to create accurate, reliable, and efficient systems that can reduce the workload of radiologists 
+and improve patient outcomes. A project focuses on classifying X-ray images to detect pneumonia, tuberculosis, brain tumors and other diseases 
+using Convolutional Neural Networks (CNNs).
 
  Data Sources :
 NIH Image Gallery: Provides a collection of medical images from the National Institutes of Health.
