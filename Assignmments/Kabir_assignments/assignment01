@@ -1,0 +1,29 @@
+Problem Statement: Enhancing Autonomous Driving with Machine Learning
+Problem Overview
+Self-driving cars use machine learning to interpret sensor data, detect obstacles, and navigate safely. Developing a reliable autonomous driving system is challenging 
+due to unpredictable road conditions, sensor limitations, and real-time decision-making constraints. Ensuring safety and efficiency requires advanced AI models that 
+can generalize across diverse environments. The project aims to create an ML model that improves perception, planning, and control for autonomous vehicles. The 
+ultimate goal is to minimize accidents, reduce traffic congestion, and enhance transportation efficiency.
+
+Data Sources
+Autonomous vehicle datasets can be obtained from public repositories like Waymo, KITTI, and nuScenes.
+Sensor data from onboard cameras, LIDAR, and RADAR provide real-time environmental perception. GPS and IMU data help in localization and trajectory prediction.
+Simulated data from platforms like CARLA can supplement real-world training.
+Crowdsourced data from Tesla Autopilot or other self-driving fleets can further enhance model robustness.
+
+Data Issues
+Data imbalance occurs when certain driving conditions, such as clear weather, dominate the dataset.
+Sensor noise and calibration errors can introduce inconsistencies in object detection and lane recognition. Occlusion of pedestrians, vehicles, or road signs creates challenges for accurate perception. 
+Incorrect labeling in segmentation or object detection datasets can lead to biased predictions.
+High computational costs associated with processing multimodal data impact real-time deployment.
+
+Types of Data
+Image data from RGB and infrared cameras assist in object detection and scene understanding. 
+LIDAR point clouds provide 3D spatial information for depth estimation and obstacle detection. RADAR data captures moving objects and estimates their speed and distance. 
+Time-series data from GPS and IMU sensors aid in localization and trajectory prediction. 
+Annotated labels, such as bounding boxes, segmentation masks, and lane markings, are crucial for supervised learning tasks.
+
+Conclusion
+Developing an ML-based self-driving system requires high-quality, diverse, and well-annotated data. Addressing data-related challenges is essential to improve model 
+accuracy and reliability. The integration of multiple sensor modalities enhances perception, planning, and control in dynamic environments. Real-world testing and 
+validation are necessary to ensure safe deployment. The project aims to contribute to safer, more efficient, and fully autonomous transportation systems.
